@@ -1,1 +1,18 @@
 /* All styles for your Card Components live here */
+
+
+
+
+
+.cardContent h5 {
+    margin-top: 10px;
+}
+
+.cardContent p {
+    margin-top: 10px;
+}
+
+.cardContent a {
+    text-decoration: none;
+    color: grey;
+}
