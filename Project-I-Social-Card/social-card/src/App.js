@@ -3,11 +3,23 @@ import './App.css';
 
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 import HeaderTitle from './components/HeaderComponents/HeaderTitle';
+import HeaderContent from './components/HeaderComponents/HeaderContent';
+
+
 const App = () => {
   return (
     <div>
-    <ImageThumbnail />
-    <HeaderTitle />
+      <div className="container">
+        <div className="headerFlex">
+          <ImageThumbnail />
+          <div>
+            <div className="headerTC">
+              <HeaderTitle />
+              <HeaderContent />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

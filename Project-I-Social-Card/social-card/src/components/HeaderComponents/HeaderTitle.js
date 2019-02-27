@@ -3,11 +3,12 @@ import './Header.css';
 
 const HeaderTitle = () => {
     return (
-     <React.Fragment>
+     <div className="headerTitleFlex">
     <h1>Lambda School</h1>
-    <p>@LambdaSchool </p>
-    <li>26 jan</li>
-    </React.Fragment>
+    <p className="gray">@LambdaSchool </p>
+    <p className ='gray'>&#183;</p>
+    <p className="gray">26 jan</p>
+    </div>
     );
 }
 
