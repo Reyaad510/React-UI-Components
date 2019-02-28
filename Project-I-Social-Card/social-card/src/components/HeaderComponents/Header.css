@@ -53,11 +53,7 @@ table {
     box-sizing: border-box;
 }
 
-.container {
-    width: 80%;
-    max-width: 700px;
-    margin: 0 auto;  
-}
+
 
 h5 {
     font-weight: bold;
@@ -75,6 +71,7 @@ img {
 
 .headerTC {
    margin-left: 10px;
+   margin-bottom: 10px;
 }
 
 .headerTitleFlex {
