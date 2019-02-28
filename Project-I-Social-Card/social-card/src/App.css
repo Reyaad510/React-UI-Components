@@ -65,10 +65,17 @@ h5 {
 
 
 .container {
-  width: 80%;
-  max-width: 700px;
+  width: 90%;
+  max-width: 800px;
   margin: 0 auto;  
-  
+	border: 1px solid black;
+	border-radius: 20px;
+	box-shadow: 5px 10px 8px #888888;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 70px;
+
 }
 
 .container p {
