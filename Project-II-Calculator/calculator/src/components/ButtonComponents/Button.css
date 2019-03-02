@@ -1,0 +1,40 @@
+
+
+.actionButton {
+    width: 75%;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+
+.actionButton:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+
+
+
+
+.numberButton {
+    width: 25%;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+   
+}
+
+.numberButton:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.operator {
+    background-color:rgb(161, 2, 2);
+    color: white;
+}
+
+.operator:hover {
+    background-color: rgb(182, 3, 12);
+}

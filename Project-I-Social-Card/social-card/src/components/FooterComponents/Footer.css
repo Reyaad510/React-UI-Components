@@ -1,0 +1,22 @@
+
+.icons {
+    display: flex;
+    width: 90%;
+    margin: 0 10%;
+}
+
+
+.icons i {
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-right: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+    
+   
+    
+}
+
+.icons .noBold {
+   font-weight: normal;
+}
